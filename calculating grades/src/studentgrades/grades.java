@@ -68,13 +68,18 @@ public class grades
 		double sumq = (quiz1 + quiz2) / 2;
 		System.out.println("Your quiz average is: " + sumq );
 		
-		System.out.println("Your final score average is: " + exam );
+		System.out.println("Your final exam average is: " + exam );
+		
+		double average = (sum + sumq + exam) / 3;
 		
 		System.out.println("You take " + class1 + " for " + course1 + " minutes a week " );
 		System.out.println("You take " + class2 + " for " + course2 + " minutes a week " );
 		System.out.println("You take " + class3 + " for " + course3 + " minutes a week " );
 		System.out.println("You take " + class4 + " for " + course4 + " minutes a week " );
 		System.out.println("You take " + class5 + " for " + course5 + " minutes a week " );
+		System.out.println("Your final score average is: " + average);
+		System.out.println("Your overall grade  is: " + exam );
+		
 	
 	}
 
